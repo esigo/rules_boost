@@ -323,6 +323,7 @@ cc_library(
         "-msse4.1",
         "-Iexternal/boost/libs/atomic/src",
     ],
+    linkstatic = True,
     visibility = ["//visibility:private"],
     deps = BOOST_ATOMIC_DEPS,
 )
